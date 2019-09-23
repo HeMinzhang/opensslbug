@@ -11,11 +11,6 @@ CONFIG -= app_bundle
 # deprecated API in order to know how to port your code away from it.
 DEFINES += QT_DEPRECATED_WARNINGS
 
-win32:INCLUDEPATH += "C:/SDK/RxCpp/Rx/v2/src"
-win32:INCLUDEPATH += "C:/SDK/nlohmann 3.6.1"
-win32:INCLUDEPATH += "C:/SDK/boost/boost_1_70_0"
-win32:INCLUDEPATH += "C:/SDK/cpp-httplib-master"
-win32:LIBS += -lKernel32
 win32:INCLUDEPATH += "C:/SDK/cpp-httplib-master"
 win32:INCLUDEPATH += "C:/Program Files/OpenSSL/include"
 win32:LIBS  += "C:/Program Files/OpenSSL/lib/*.lib"
